@@ -1,3 +1,5 @@
+package basics
+
 fun main(args : Array<String>){
     var x =10
     //normal when statement

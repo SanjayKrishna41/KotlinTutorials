@@ -1,10 +1,12 @@
-//main function
+package basics
+
+//basics.main function
 fun main(arg:Array<String>){
     println(addNumbers(1,2))
     val res = max(3,4)
     println("$res is greater")
 }
-//function to add two numbers
+//function to basics.add two numbers
 fun addNumbers(a:Int,b:Int) : String{
     return "Sum of $a + $b = ${a+b}"
 }

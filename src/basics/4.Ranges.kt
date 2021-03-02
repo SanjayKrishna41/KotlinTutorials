@@ -1,3 +1,5 @@
+package basics
+
 fun main(args:Array<String>){
     var r1 = 1..2   //This range contains the number 1,2,3,4,5
     println(r1)

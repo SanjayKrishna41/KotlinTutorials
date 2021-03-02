@@ -1,4 +1,6 @@
-//main function
+package basics
+
+//basics.main function
 fun main(arg:Array<String>){
     //normal function call
     findVolumeOfCube(1,2,3)

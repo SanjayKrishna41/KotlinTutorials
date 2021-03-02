@@ -1,14 +1,16 @@
-//main function
+package basics
+
+//basics.main function
 fun main(arg:Array<String>){
-    val res = java_interoperability.max(4,5);
-    println("printing result of max function in kotlin code - $res");
+    val res = java_interoperability.max(4, 5);
+    println("printing result of basics.max function in kotlin code - $res");
 
     var res1 = findVolume(2,3)
     println(res1)
     var res2 = findVolume(2)
     println(res2)
 }
-//function to add two numbers
+//function to basics.add two numbers
 fun addNumber(a:Int,b:Int) : Int{
     return a+b
 }

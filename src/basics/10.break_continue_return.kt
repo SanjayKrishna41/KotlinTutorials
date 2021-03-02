@@ -1,3 +1,5 @@
+package basics
+
 fun main(arg : Array<String>){
     //break statement
 //    for(i in 1..10){

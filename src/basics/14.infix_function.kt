@@ -1,3 +1,5 @@
+package basics
+
 fun main(args: Array<String>) {
     val str1 = "Hello "
     val str2 = "Kotlin "

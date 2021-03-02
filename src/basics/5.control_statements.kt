@@ -1,3 +1,5 @@
+package basics
+
 fun main(arg : Array<String>){
     val a = 10
     val b = 19

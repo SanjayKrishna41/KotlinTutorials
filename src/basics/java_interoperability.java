@@ -1,11 +1,11 @@
-import kotlin.jvm.JvmOverloads;
+package basics;
 
 public class java_interoperability {
 
     public static void main(String args[]){
-        //calling function addNumber present in kotlin file using class name
+        //calling function basics.addNumber present in kotlin file using class name
         int res = Kotlin_interoperabilityKt.addNumber(5,19);
-        System.out.println("printing result of addNumber function in java code - "+res);
+        System.out.println("printing result of basics.addNumber function in java code - "+res);
 
         int res1 = Kotlin_interoperabilityKt.findVolume(5);
         System.out.println("Area of cube - "+res1);

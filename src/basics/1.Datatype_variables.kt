@@ -1,3 +1,5 @@
+package basics
+
 fun main(args : Array<String>) : Unit{
     //variable declared with var are mutable can be changed
     var string : String = "Hello World"

@@ -1,3 +1,5 @@
+package basics
+
 fun main(agrs : Array<String>){
     val std = Student()
     println(std.hasPassed(40))
